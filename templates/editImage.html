@@ -1,0 +1,28 @@
+<div class="imageContainer">
+    <div class="imgDiv">
+        <img class="profileImage" src="https://homepages.cae.wisc.edu/~ece533/images/lena.png" />
+    </div>
+    <div class="butDiv">
+        <a href="">
+            <div class="buttons" id="buttons" type="submit">Home</div>
+        </a>
+        <a href="/newImage">
+            <div class="buttons" id="buttons" type="submit">New Photo</div>
+        </a>
+    </div>
+</div>
+<div class="editImgContainer">
+    <div class="imgCont">
+        <img class="img" src="{{attributes.image}}" />
+    </div>
+
+    <form id="imgCont" class="editImageForm">
+        <input class="object" id="objectId" value="{{attributes.objectId}}"/>
+        <div class="editData">
+        <input class="inputs" id="image" value="{{attributes.image}}" placeholder="Paste Image url Here" />
+        <input class="inputs" id="title" value="{{attributes.title}}" placeholder="Photo Title" />
+        <textarea class="textarea" id="description" rows="8" cols="80" placeholder="Photo Description">{{attributes.description}}</textarea>
+        </div>
+        <button class="newButton" type="submit">Submit</button>
+    </form>
+</div>

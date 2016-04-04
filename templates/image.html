@@ -1,0 +1,27 @@
+<div class="imageContainer">
+    <div class="imgDiv">
+        <img class="profileImage" src="https://homepages.cae.wisc.edu/~ece533/images/lena.png" />
+    </div>
+    <div class="butDiv">
+        <a href="">
+            <div class="buttons" id="buttons" type="submit">Home</div>
+        </a>
+        <a href="/editImage/{{attributes.objectId}}">
+            <div class="buttons" id="buttons" type="submit">Edit Photo</div>
+        </a>
+    </div>
+</div>
+
+<div class="imgContainer">
+    <div class="imgCont">
+        <img class="img" src="{{attributes.image}}" />
+    </div>
+    <div class="data">
+        <div class="title">
+            {{attributes.title}}
+        </div>
+        <div class="description">
+            {{attributes.description}}
+        </div>
+    </div>
+</div>

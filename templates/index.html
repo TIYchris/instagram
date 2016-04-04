@@ -1,0 +1,35 @@
+<div id="collectionsContainer">
+	<div class="collections">
+		<div class="title">
+			<a href="/newImage"></a>
+		</div>
+		<div class="imgDiv">
+            <img class="profileImage" src="https://homepages.cae.wisc.edu/~ece533/images/lena.png" />
+        </div>
+        <div class="butDiv">
+            <a href="">
+                <div class="buttons" id="buttons" type="submit">Home</div>
+            </a>
+            <a href="/newImage">
+                <div class="buttons" id="buttons" type="submit">New Photo</div>
+            </a>
+        </div>
+		<div id="images">
+			{{#imagesData}}
+				<div class="imageBody">
+					<i class="fa fa-thumbs-up">
+					<input id="objectId" value='{{objectId}}'></input></i>
+					<div class="foo">{{icon}}</div>
+					<div class="imgBut" id="buttons" type="submit">
+						<a href="/image/{{objectId}}">
+							<img class="image" src="{{image}}"></img>
+						</a>
+					</div>
+				</div>	
+		  	{{/imagesData}}
+		</div>
+	</div>
+<!-- 
+	<div id="showContact"></div>
+	<a href="/contact/Er0GV3HPAc">Contact</a> -->
+</div>

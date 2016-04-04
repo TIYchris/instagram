@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+*:before {
+    box-sizing: inherit;
+}
+*:after {
+
+    box-sizing: inherit;
+}
+body{
+	background-color: #a6a6a6;
+
+}
+
+
+.profileImage{
+	height:175px;
+	width: 175px;
+	border-radius: 50%;
+	border:2px solid #404040;
+	margin-top:15px;
+}
+a {
+	text-decoration: none;
+}
+.buttons {
+	height:50px;
+	width:200px;
+	background-color: #D8D8D8;
+	color:black;
+	padding-top:15px;
+	margin-top:40px;
+	text-align: center;
+	border:2px solid #404040;
+}	
+.imgDiv {
+	text-align: center;
+}
+.butDiv {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.collections {
+	width:1200px;
+	height:2000px;
+	margin: 0 auto;
+}
+.image{
+	height: 250px;
+	width:250px;
+	margin-top: 30px;
+	border:2px solid #404040;
+}
+#images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.imageContainer{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+.imgContainer {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top:40px;	
+}
+.editImgContainer {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top:40px;	
+}
+.img {
+	height:600px;
+	width:600px;
+}
+.object{
+	display: none;
+}
+.imgCont{
+	float:left;
+}
+.data{
+	margin-left: 750px;
+	position: relative;
+}
+.editData {
+	margin-left: 400px;
+	position: absolute;
+	margin-top:-25px;
+
+}
+.title{
+	font-size:20px;
+	font-weight: bold;
+}
+.description {
+	margin-top: 50px;
+}
+.newPhoto {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width:1200px;
+	height: 800px;
+}
+
+.textarea {
+	display: flex;
+	left:265px;
+	position: relative;
+	margin-top: 25px;
+}
+.inputs {
+	display:flex;
+	width:661px;
+	left:265px;
+	position: relative;
+	margin-top: 25px;
+	height: 50px;
+}
+
+#newPhoto{
+	text-align: center;
+}
+.newBut {
+	margin-top:25px;
+	height:50px;
+	width: 200px;
+	background-color: #D8D8D8;
+	border:2px solid #404040;
+}
+.newButton {
+	position: relative;
+	height:50px;
+	width: 200px;
+	background-color: #D8D8D8;
+	border:2px solid #404040;
+	top:345px;
+	left: 65px;
+}
+
+.fa {
+	position: relative;
+	top:45px;
+	left:200px;
+}
+.fa:hover {
+	color:blue;
+}
+#objectId{
+	display:none;
+}
+.foo {
+	position: relative;
+    top: 28px;
+    left: 225px;
+}
